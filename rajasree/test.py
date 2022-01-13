@@ -8,11 +8,14 @@ Source:
 
 # Import necessary modules
 import base64
-encoded_data = ""
+
 
 def startpy():
-    encode("I am Rajasree")
-    decode(encoded_data)
+    text = encode("I am Rajasree")
+    print(text)
+    detext = decode(text)
+    print(detext)
+
 
 def encode(text):
     
@@ -22,7 +25,7 @@ def encode(text):
     base64_byte_data = base64.b64encode(ascii_data)
 
     encoded_data = base64_byte_data.decode('ascii')
-    print(encoded_data)
+ 
     return encoded_data
 
 
@@ -35,7 +38,7 @@ def decode(encoded_data):
     ascii_data = base64.b64decode(base64_byte_data)
 
     text_data = ascii_data.decode('ascii')
-    print(text_data)
+   
     return text_data
 
 
