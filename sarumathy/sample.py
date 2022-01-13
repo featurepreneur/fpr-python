@@ -10,7 +10,15 @@ Source:
 import base64
 
 
-def startpy(a,b):
+def startpy():
+     print("we are saru and shruthi")
+     pass_state(7,6)
+     tri_recursion(6)
+     sort_eg([ "Shruthi", "Swedha", "Sarumathy", "Trishala" ])
+
+
+
+def pass_state(a,b):
      if(a>b):
          pass       # null statement
      else:
@@ -24,19 +32,17 @@ def tri_recursion(a):
   else:
     result = 0
   return result
+#print("\n\nRecursion Example Results")
 
-print("\n\nRecursion Example Results")
-
-
-l_name = [ "Shruthi", "Swedha", "Sarumathy", "Trishala" ]
-print (l_name)       # prints all elements
-l_name.sort()       # sorts the list in alphabetical order
-print(l_name)       # prints all elements
+def sort_eg(l_name):
+  print (l_name)       # prints all elements
+  l_name.sort()       # sorts the list in alphabetical order
+  print(l_name)       # prints all elements
 
 
 
 
 
 if __name__ == '__main__':
-     startpy(7,6)
-     tri_recursion(6)
+     startpy()
+    
