@@ -23,7 +23,6 @@ thisdict = {
     }
    
 def diction(thisdict):
-  
   print(thisdict)
 
 def access(thisdict):
