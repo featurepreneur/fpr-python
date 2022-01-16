@@ -8,7 +8,7 @@ Source:
 
 def startpy():
     myfunc()
-
+    stud()
 
 def myfunc():
          x = 3
@@ -17,6 +17,16 @@ def myfunc():
          return MyClass
 print(myfunc().y)
 
+def stud():
+    class Student:
+        def __init__(self, name, rollno):
+            self.name = name
+            self.rollno = rollno
+
+    p1 = Student("Saru", 18)
+
+    print(p1.name)
+    print(p1.rollno)
 
 
 if __name__ == '__main__':
