@@ -13,4 +13,7 @@ a python code was given to him.
 To find type of OS
 
 no os method 
-linus - 1 
+
+linux - 0
+mac -1
+windows -2
