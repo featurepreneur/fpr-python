@@ -7,3 +7,10 @@ When the manager tried to add the given address to the instance, he was not able
 to the junior developer and explained about public and private IP addresses. He made it clear that when someone asks for IP one
 should  always give the public one and not the private IP address. SInce the developer did not know how to check the address, 
 a python code was given to him. 
+
+------------------------------------------------------------------------------------------------------------------------------------\
+
+To find type of OS
+
+no os method 
+linus - 1 
