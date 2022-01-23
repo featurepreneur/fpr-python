@@ -1,0 +1,16 @@
+get a string - check for caps in the string 
+check whether ip is public or private / rule 
+
+Once upon a time , there was a manager . He assigned a task to one of the new junior developers to add their IP address 
+to the EC2 instance. As the developer was new , he provided an IP address to the manager which happen to be a private IP address. 
+When the manager tried to add the given address to the instance, he was not able to do it. He found out the mistake and went back
+to the junior developer and explained about public and private IP addresses. He made it clear that when someone asks for IP one
+should  always give the public one and not the private IP address. SInce the developer did not know how to check the address, 
+a python code was given to him. 
+
+------------------------------------------------------------------------------------------------------------------------------------\
+
+To find type of OS
+
+no os method 
+linus - 1 
